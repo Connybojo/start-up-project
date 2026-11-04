@@ -1,0 +1,26 @@
+/* Row of key numbers under the banner */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 48px 0px;
+  border-bottom: 1px solid #2e3338;
+}
+.stat {
+  flex-basis: 150px;
+  flex-grow: 1;
+  text-align: center;
+}
+.stat-number {
+  font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1;
+  color: #c9b27c;
+}
+.stat-label {
+  font-size: 15px;
+  color: #a9a697;
+  margin-top: 8px;
+}

@@ -1,0 +1,42 @@
+.banner {
+  /* Dark gradient on the left keeps the text readable over the photo.
+     Path goes up two folders (components -> css -> project root) */
+  background-image:
+    linear-gradient(90deg, rgba(22, 25, 28, 0.95) 0%, rgba(22, 25, 28, 0.4) 75%),
+    url('../../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #22272b;
+  padding: 160px 0px 140px;
+  border-bottom: 1px solid #2e3338;
+}
+.banner h1 {
+  color: #efe9d8;
+  font-size: 88px;
+  line-height: 0.95;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 0px 0px 24px;
+}
+.banner h2 {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  color: #efe9d8;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.75;
+  max-width: 34ch;
+  margin: 0px 0px 40px;
+}
+
+@media (max-width: 600px) {
+  .banner {
+    padding: 100px 0px 90px;
+  }
+  .banner h1 {
+    font-size: 56px;
+  }
+  .banner h2 {
+    font-size: 18px;
+  }
+}

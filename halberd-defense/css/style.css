@@ -1,0 +1,64 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap");
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/stats.css");
+
+/* General style rules for fonts and colors */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
+}
+body {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-size: 18px;
+  color: #d9d5c7;
+  background-color: #16191c;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+
+/* Contact section */
+.contact {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.copy-email {
+  border: none;
+  cursor: pointer;
+}
+
+/* Founder strip at the bottom */
+.founder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 40px 20px;
+  border-top: 1px solid #2e3338;
+  color: #a9a697;
+}
+.founder p {
+  margin: 0;
+}
+
+/* Small note at the very bottom */
+.disclaimer {
+  text-align: center;
+  font-size: 13px;
+  color: #6f6d64;
+  padding: 0px 20px 32px;
+  margin: 0px;
+}

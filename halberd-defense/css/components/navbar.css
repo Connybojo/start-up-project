@@ -1,0 +1,46 @@
+/* Bar that stays at the top while you scroll */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(22, 25, 28, 0.95);
+  border-bottom: 1px solid #2e3338;
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.navbar-logo {
+  font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #efe9d8;
+}
+.navbar-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-links a {
+  font-size: 16px;
+  color: #a9a697;
+  transition: color 0.2s ease;
+}
+.navbar-links a:hover {
+  color: #c9b27c;
+}
+
+@media (max-width: 600px) {
+  .navbar-logo {
+    font-size: 20px;
+  }
+  .navbar-links {
+    gap: 18px;
+  }
+}

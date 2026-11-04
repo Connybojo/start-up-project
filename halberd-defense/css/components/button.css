@@ -1,0 +1,20 @@
+/* Shape shared by every button */
+.btn {
+  display: inline-block;
+  font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 14px 30px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+/* Main call-to-action: sand on dark */
+.btn-primary {
+  background-color: #c9b27c;
+  color: #16191c;
+}
+.btn-primary:hover {
+  background-color: #ddc793;
+}

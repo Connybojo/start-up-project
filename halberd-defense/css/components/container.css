@@ -1,0 +1,6 @@
+/* Full width on mobile, centered with side space on larger screens */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
